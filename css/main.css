@@ -1,3 +1,6 @@
+div {
+  margin: 0;
+}
 img {
   width: 100%;
   height: auto;
@@ -16,4 +19,16 @@ p {
   font-family: 'Jura', sans-serif;
   margin-left: 20%;
   margin-right: 20%;
+}
+#lap1 {
+  background-color: lightblue;
+}
+#lap3 {
+  background-color: lightgreen;
+}
+#lap5 {
+  background-color: lightblue;
+}
+#lap7 {
+  background-color: lightgreen;
 }
