@@ -30,14 +30,27 @@ p {
   margin-right: 20%;
 }
 #lap1 {
-  background-color: gray;
+  background-color: #9a9a9a;
+  padding: .5em;
+}
+#lap2 {
+  padding: .5em;
 }
 #lap3 {
-  background-color: lightgreen;
+  background-color: #9a9a9a;
+  padding: .5em;
+}
+#lap4 {
+  padding: .5em;
+  background-color: #1a1a1a;
+  color: white;
 }
 #lap5 {
-  background-color: lightblue;
+  background-color: #9a9a9a;
+  padding: .5em;
 }
 #lap7 {
-  background-color: lightgreen;
+  padding: .5em;
+  background-color: #1a1a1a;
+  color: white;
 }
