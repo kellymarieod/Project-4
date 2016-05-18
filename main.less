@@ -12,6 +12,12 @@
   animation-delay: @delay;
 }
 
+.animation-iteration-count (@iteration-count: 1) {
+  -webkit-animation-iteration-count: @iteration-count;
+  -moz-animation-iteration-count: @iteration-count;
+  animation-iteration-count: @iteration-count;
+}
+
 body {
   margin: 0;
   // padding-bottom: 25%;
@@ -73,6 +79,18 @@ h3 {
 h3.animated {
   .animation-duration(10s);
 }
+
+#fader.animated {
+  .animation-duration(10s);
+  .animation-delay(3s);
+  .animation-iteration-count(infinite);
+}
+
+// #fade2.animated {
+//   .animation-duration(10s);
+//   .animation-delay(11s);
+//   .animation-iteration-count(infinite);
+// }
 
 h2 {
   font-family: 'Rock Salt', cursive;
