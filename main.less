@@ -1,5 +1,17 @@
 // out: css/main.css, sourcemap: true
 
+.animation-duration (@duration: 1s) {
+  -webkit-animation-duration: @duration;
+  -moz-animation-duration: @duration;
+  animation-duration: @duration;
+}
+
+.animation-delay (@delay: 0s) {
+  -webkit-animation-delay: @delay;
+  -moz-animation-delay: @delay;
+  animation-delay: @delay;
+}
+
 body {
   margin: 0;
   // padding-bottom: 25%;
@@ -45,7 +57,7 @@ h1 {
 }
 
 h1.animated {
-  animation-duration: 5s;
+  .animation-duration(5s);
 }
 
 h3 {
@@ -59,7 +71,7 @@ h3 {
 }
 
 h3.animated {
-  animation-duration: 10s;
+  .animation-duration(10s);
 }
 
 h2 {
@@ -88,15 +100,25 @@ p {
   padding: .5em 0;
 }
 
+#zombieFence {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
 #below {
   // z-index: 1;
   position: relative;
+  left: 0;
+  top: 0;
 }
 
 #fade {
   // z-index: 2;
-  position: relative;
-  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  // float: left;
   // margin-left: -150px;
   // top: -50px;
   // top: -100%;

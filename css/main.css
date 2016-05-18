@@ -24,6 +24,8 @@ h1 {
   margin-bottom: 0;
 }
 h1.animated {
+  -webkit-animation-duration: 5s;
+  -moz-animation-duration: 5s;
   animation-duration: 5s;
 }
 h3 {
@@ -36,6 +38,8 @@ h3 {
   margin-bottom: 0px;
 }
 h3.animated {
+  -webkit-animation-duration: 10s;
+  -moz-animation-duration: 10s;
   animation-duration: 10s;
 }
 h2 {
@@ -59,12 +63,20 @@ p {
   background-color: #9a9a9a;
   padding: .5em 0;
 }
+#zombieFence {
+  position: relative;
+  left: 0;
+  top: 0;
+}
 #below {
   position: relative;
+  left: 0;
+  top: 0;
 }
 #fade {
-  position: relative;
-  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 #lap4 {
   padding: .5em 0;
