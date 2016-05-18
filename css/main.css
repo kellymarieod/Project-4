@@ -18,7 +18,9 @@ h1 {
   margin-right: 20%;
   margin-top: 0;
   margin-bottom: 0;
-  -webkit-animation-duration: 10s;
+}
+h1.animated {
+  animation-duration: 5s;
 }
 h3 {
   font-family: 'Rock Salt', cursive;
@@ -28,6 +30,9 @@ h3 {
   margin-right: 10%;
   margin-top: auto;
   margin-bottom: 0px;
+}
+h3.animated {
+  animation-duration: 10s;
 }
 h2 {
   font-family: 'Rock Salt', cursive;
