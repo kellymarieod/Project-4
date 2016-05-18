@@ -50,26 +50,26 @@ p {
 }
 #lap1 {
   background-color: #9a9a9a;
-  padding: .5em;
+  padding: .5em 0;
 }
 #lap2 {
-  padding: .5em;
+  padding: .5em 0;
 }
 #lap3 {
   background-color: #9a9a9a;
-  padding: .5em;
+  padding: .5em 0;
 }
 #lap4 {
-  padding: .5em;
+  padding: .5em 0;
   background-color: #1a1a1a;
   color: white;
 }
 #lap5 {
   background-color: #9a9a9a;
-  padding: .5em;
+  padding: .5em 0;
 }
 #lap7 {
-  padding: .5em;
+  padding: .5em 0;
   background-color: #1a1a1a;
   color: white;
 }
